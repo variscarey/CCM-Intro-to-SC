@@ -1,0 +1,121 @@
+%Title:
+%Started:
+%Updated:
+\documentclass{amsart}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{hyperref}
+%-----------------------------------------------------------------
+\vfuzz2pt % Don't report over-full v-boxes if over-edge is small
+\hfuzz2pt % Don't report over-full h-boxes if over-edge is small
+% THEOREMS -------------------------------------------------------
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}
+\newtheorem{cor}{Corollary}
+\newtheorem{lem}{Lemma}
+\newtheorem{prop}{Proposition}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\theoremstyle{definition}
+\newtheorem{ex}{Example}
+\numberwithin{equation}{section}
+\newtheorem{prob}{Problem}
+\numberwithin{equation}{section}
+% Colors-----------------------------------------------------------
+\definecolor{Green}{rgb}{0,.5,0}
+%use for definitions
+\definecolor{Red}{rgb}{.8,.2,0}
+%use for emphasis
+\definecolor{Yellow}{rgb}{.6,.6,.1}
+%use for part titles
+\definecolor{Cyan}{rgb}{.2,.6,.7}
+%use for comments
+\definecolor{Purple}{rgb}{.4,0,1}
+%use for examples
+\definecolor{deepred}{rgb}{.53,.29,.24}
+%use for important points
+\definecolor{Black}{rgb}{0,0,0}
+%use for washout
+\definecolor{Grey}{rgb}{.45,.45,.45}
+% use for theorems
+\newcommand{\tred}[1]{\textcolor{Red}{#1}}
+\newcommand{\tgreen}[1]{\textcolor{Green}{#1}}
+\newcommand{\tcyan}[1]{\textcolor{Cyan}{#1}}
+\newcommand{\tyellow}[1]{\textcolor{Yellow}{#1}}
+\newcommand{\tpurple}[1]{\textcolor{Purple}{#1}}
+\newcommand{\tblack}[1]{\textcolor{Black}{#1}}
+\newcommand{\tgrey}[1]{\textcolor{Grey}{#1}}
+\newcommand{\tdeepred}[1]{\textcolor{deepred}{#1}}
+\newcommand{\ttt}[1]{\texttt{#1}}
+% MATH -----------------------------------------------------------
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\BX}{\mathbf{B}(X)}
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\lv}{\left\langle}
+\newcommand{\rv}{\right\rangle}
+\newcommand{\mbf}[1]{\mathbf{#1}}
+\newcommand{\mat}[2][rrrrrrrrrrrrrrrrrrrrrrrrr]{\left(\begin{array}{#1}#2\\ \end{array}\right)}
+% ----------------------------------------------------------------
+\setlength{\topmargin}{-.3in}
+\setlength{\headheight}{.2in}
+\setlength{\headsep}{.3in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+\renewcommand{\baselinestretch}{1.5}
+% ----------------------------------------------------------------
+
+\begin{document}
+
+\title{Instructions for setting up your laptop}
+\author{Troy Butler and Varis Carey}
+
+\maketitle
+
+\section*{Step 1: Obtaining a distribution of Python 3.6}
+
+Go to \href{https://www.continuum.io/downloads}{https://www.continuum.io/downloads} and follow the instructions to download and install a Python 3.6 distribution for whichever operating system your laptop has. 
+The Python package manager installed is called Anaconda. 
+
+\section*{Step 2: Testing the Jupyter Notebook}
+
+\subsection*{For Windows:}
+
+In the apps/start menu, you should see a folder labeled \verb|Anaconda3 (64-bit)| (or \verb|Anaconda3 (32-bit)| if you are using an older laptop and installed the 32-bit version). 
+Left click on that folder and left click on the \verb|Jupyter Notebook| icon.
+A command terminal titled \verb|Jupyter Notebook| should open up followed by your default web browser opening up a new tab displaying a URL starting with \verb|http://localhost:8888/tree| and \verb|jupyter| should be displayed at the top of the webpage shown in this tab. 
+You should see many folder options for you to navigate through such as \verb|Desktop| and \verb|Documents| among others. 
+For now, close this tab in the web browser and enter Ctrl+C twice in the command terminal to close everything down.
+
+Congratulations, everything is working properly. 
+
+\subsection*{For Mac OS or Linux:}
+
+Open up a terminal and type \verb|jupyter notebook|. 
+Your default web browser should open up a new tab showing a URL starting with \verb|http://localhost:8888/tree| and \verb|jupyter| should be displayed at the top of the webpage. 
+Whatever directory the terminal was set to when you typed \verb|jupyter notebook| will have all of its contents displayed on the webpage. 
+For now, close the tab in the web browser associated with the notebook and enter Ctrl+C twice in the terminal to close everything down.
+
+Congratulations, everything is working properly. 
+
+\section*{Step 3: Obtain a copy of the lectures}
+
+Go to \href{https://github.com/variscarey/CCM-Intro-to-SC}{https://github.com/variscarey/CCM-Intro-to-SC} and either clone or download the repository in the main branch.
+If you are unfamiliar with using \verb|git|, then just download the repository and unzip it to wherever you want the repository to reside on your hard drive. 
+We recommend putting the directory on your desktop for ease of access. 
+
+
+
+
+\end{document}
