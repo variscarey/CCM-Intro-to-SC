@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.29)  8 AUG 2017 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.4)  16 AUG 2017 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -364,51 +364,36 @@ LaTeX Info: Redefining \nameref on input line 79.
 \@outlinefile=\write3
 \openout3 = `Instructions.out'.
 
-
-Overfull \hbox (45.08507pt too wide) in paragraph at lines 95--100
- []\OT1/cmr/bx/n/10 For Win-dows:[][] \OT1/cmr/m/n/10 In the apps/start menu, y
-ou should see a folder la-beled []\OT1/cmtt/m/n/10 Anaconda3 (64-bit) \OT1/cmr/
-m/n/10 (or []\OT1/cmtt/m/n/10 Anaconda3 (32-bit)
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./Instructions.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
-
-
-Package rerunfilecheck Warning: File `Instructions.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Instructions.out':
-(rerunfilecheck)             Before: 09D0AE4746843D9C66338DDF255FCA82;409
-(rerunfilecheck)             After:  D9635CAC668715B26B8B06205F794D90;351.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package rerunfilecheck Info: File `Instructions.out' has not changed.
+(rerunfilecheck)             Checksum: D9635CAC668715B26B8B06205F794D90;351.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 6574 strings out of 493029
- 92114 string characters out of 6136234
- 179411 words of memory out of 5000000
+ 6575 strings out of 493029
+ 92122 string characters out of 6136235
+ 180413 words of memory out of 5000000
  9874 multiletter control sequences out of 15000+600000
- 8480 words of font info for 35 fonts, out of 8000000 for 9000
+ 8839 words of font info for 36 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 34i,5n,31p,306b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.6} has been referenced but does not exis
-t, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Instructions.pdf (1 page, 81617 bytes).
+ 34i,6n,31p,336b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Instructions.pdf (2 pages, 98633 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
